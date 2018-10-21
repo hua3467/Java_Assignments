@@ -24,11 +24,15 @@ public class XorSimulation
         {
             input2 = input.charAt(i);
 
-            if ( ( ( input1 == '1' || input2 == '0' ) && input1 != input2 )
-                    || ( ( input1 == '0' || input2 == '1' ) && input1 != input2 ) )
+            if ( input1 != input2  )
+            {
                 input1 = '1';
+            }
+            
             if ( input1 == input2 )
+            {
                 input1 = '0';
+            }
         }
         
         System.out.println( "The result is " + input1 ); 
