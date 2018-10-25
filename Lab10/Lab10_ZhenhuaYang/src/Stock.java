@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author zhenhua.yang.1
  */
-import java.text.DecimalFormat;
+
 
 public class Stock {
     
@@ -54,10 +48,8 @@ public class Stock {
     }
     
     // percentage changed from previousClosingPrice to currentPrice
-    public String changePercent()
+    public double changePercent()
     {
-        DecimalFormat percentFormat = new DecimalFormat( "0.00%" );
-        String percent = percentFormat.format(( currentPrice - previousClosingPrice ) / previousClosingPrice);
-        return percent;
+        return ( currentPrice - previousClosingPrice ) / previousClosingPrice;
     }
 }

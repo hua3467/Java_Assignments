@@ -29,7 +29,8 @@ public class Deposit
             total = initialAmount * Math.pow( (1 + INT), year );
 
             System.out.println("The total balance at the end is: " + decimal.format(total) + "\n" );
-        }while ( initialAmount !=-1 );
+            
+        } while ( initialAmount !=-1 );
     }
 }
 
