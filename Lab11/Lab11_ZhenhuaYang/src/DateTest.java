@@ -10,9 +10,8 @@
  */
 public class DateTest {
     public static void main( String [] args ){
-        Date myDate = new Date( 3, 32, 2013 );
-          //System.out.println(myDate.getDay());
+        Date myDate = new Date( 2, 29, 2016 );
         
-        System.out.println( myDate.toString());
+        System.out.println( myDate.toString() );
     }
 }
