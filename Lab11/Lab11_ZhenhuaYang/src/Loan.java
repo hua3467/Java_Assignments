@@ -60,7 +60,7 @@ public class Loan {
     public int monthlyPayment(){
         
         double mir = air / 12;
-        return (int) ((mir * amount) / ( 1 - ( Math.pow ( (1 + mir), 12 * years))));
+        return (int) ((mir * amount) / ( 1 - ( Math.pow ( 1 / (1 + mir), 12 * years))));
     }
     
     public int totalPayment(){
