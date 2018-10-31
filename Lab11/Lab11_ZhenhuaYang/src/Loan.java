@@ -1,20 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author aaronyang
  */
+
+import java.text.DecimalFormat;
+
 public class Loan {
     
+    // instance variables 
     private double air;
     private int years;
     private int amount;
-    private String loanDate;
+    private Date loanDate;  // create Date object
     
+    // default constructor
     public Loan(){
         air = 0.0;
         years = 0;
@@ -22,14 +21,16 @@ public class Loan {
         loanDate = null;
     }
     
-    public Loan( double newAIT, int newYear, int newAmount, Date newDate){
-        air = newAIT;
+    // overloaded constructor
+    public Loan( double newAIR, int newYear, int newAmount, Date newDate){
+        air = newAIR;
         years = newYear;
         amount = newAmount;
-        loanDate = newDate.toString();
+        loanDate = newDate;
     }
     
-    public double getAIT(){
+    // accessor methods
+    public double getAIR(){
         return air;
     }
     public int getYears(){
@@ -42,7 +43,7 @@ public class Loan {
         return loanDate.toString();
     }
     
-    
+    // mutator methods
     public void setAIR( double newAIR ){
         air = newAIR;
     }
@@ -52,38 +53,58 @@ public class Loan {
     public void setYears( int newYears ){
         years = newYears;
     }
-    public void setDate( String newDate ){
-        // how to create a Date object? 
-        loanDate = newDate;
+    public void setDate( int m, int d, int y ){
+        
+        loanDate = new Date( m, d, y);
+        
     }
 
-    public int monthlyPayment(){
+    // calculate the monthly payment
+    public double monthlyPayment(){
         
         double mir = air / 12;
-        return (int) ((mir * amount) / ( 1 - ( Math.pow ( 1 / (1 + mir), 12 * years))));
+        return ((mir * amount) / ( 1 - ( Math.pow ( 1 / (1 + mir), 12 * years))));
     }
-    
-    public int totalPayment(){
+    // calculate the total payment
+    public double totalPayment(){
         
-        int total = 0;
+        // calculate total payment
+        double total = amount * Math.pow( ( 1 + air ), years);
         return total;
     }
-    
-    public int overPayment(){
+    // calculate the over payment
+    public double overPayment(){
         
         return this.totalPayment() - amount;
         
     }
     
+    // toString method
     @Override
     public String toString(){
         
+        DecimalFormat percent = new DecimalFormat( "0.00%" );
+        DecimalFormat dollar = new DecimalFormat( "$0.00" );
+        
         return "===================Loan Information====================" 
-                + "\n\nAnnual Interest Rate: " + air
-                + "\nNumber of Years: " + years
-                + "\nLoan Amount: " + amount
-                + "\nLoan Date: " + loanDate
-                + "\n\n========Thank you for trusting our loan company========";
-
+                + "\nAnnual interest rate: " + percent.format(air) 
+                + "\nMortgage amount: " + dollar.format(amount)
+                + "\nMonthly payment: " + dollar.format(this.monthlyPayment())
+                + "\nTotal payment over the years: " + dollar.format(this.totalPayment())
+                + "\nOverpayment: " + dollar.format(this.overPayment())
+                + "\noverpayment as a percentage: " + percent.format(this.overPayment() / this.getAmount());
     }
+    
+    // equals method
+    public boolean equals( Object o ){
+        
+        if ( ! ( o instanceof Loan ) )
+            return false;
+        else{
+            Loan objLoan = (Loan) o;
+            return air == objLoan.air && amount == objLoan.amount 
+                    && years == objLoan.years && loanDate == objLoan.loanDate;
+        }
+    }
+    
 }
