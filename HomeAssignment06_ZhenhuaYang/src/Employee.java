@@ -1,6 +1,6 @@
 /**
  *
- * @author aaronyang
+ * @author ZhenhuaYang
  */
 public class Employee {
     // instance variables
@@ -10,7 +10,7 @@ public class Employee {
     private Date birthDate;
     private Date hireDate;
     
-    private int count;
+    static int count;
     
     static int nextID = 1000;
     
@@ -71,12 +71,13 @@ public class Employee {
     
     @Override
     public String toString(){
-        return "Employee Name: " + firstName + " " + lastName 
-                + "Employee ID: " + employeeID
-                + "Date of Birth: " + birthDate
-                + "Date of hiring: " + hireDate;
+        return "\nEmployee Name: " + firstName + " " + lastName 
+                + "\nEmployee ID: " + employeeID
+                + "\nDate of Birth: " + birthDate
+                + "\nDate of hiring: " + hireDate;
     }
     
+    @Override
     public boolean equals( Object o ){
         
         if( !( o instanceof Employee ))
