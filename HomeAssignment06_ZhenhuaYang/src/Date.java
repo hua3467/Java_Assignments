@@ -41,27 +41,38 @@ public class Date {
         // create GregorianCalendar object
         GregorianCalendar cal = (GregorianCalendar) Calendar.getInstance();
         
-        // if statements that validates users' inputs
-        if( month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12 ){  
-        // check if the month is 1, 3, 5, 7, 8, 10, 12
-            if( d <=1  || d >= 31 )     // if d<1 or d>31, throw error message.
+        switch (month){
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12: {
+                if( d <=1  || d >= 31 )     // if d<1 or d>31, throw error message.
                 throw new IllegalArgumentException("Day value must be from 1 to 31 for month " + month);
-
-        } else if( month == 4 || month == 6 || month == 9 || month == 11 ){
-          // check if the month is 4, 6, 9 or 11
-            if( d <1  || d > 30 )      // if d<1 or d>30, throw error message.
+                break;
+            }
+            
+            case 4:
+            case 6:
+            case 9:
+            case 11:{
+                if( d <1  || d > 30 )      // if d<1 or d>30, throw error message.
                 throw new IllegalArgumentException("Day value must be from 1 to 30 for month " + month);
-
-        } else if( cal.isLeapYear(year) && month == 2 ){
-            // check if the year is leap year and the month=2.
-            if( d <1  || d > 29 )   // if d<1 or d>29, throw error message. 
-                throw new IllegalArgumentException("At" + year + ", the day in February must be from 1 to 29");
-
-        } else if( !cal.isLeapYear(year) && month == 2 ){
-            // if the year is not leap year and the month=2.
-            if( d <1  || d > 28 )   // if d<1 or d>28, throw error message. 
-                throw new IllegalArgumentException("At" + year + ", the day in February must be from 1 to 28");
-
+                break;
+            }
+            
+            case 2:{
+                if (cal.isLeapYear(year)){
+                    if( d <1  || d > 29 )   // if d<1 or d>29, throw error message. 
+                        throw new IllegalArgumentException("At" + year + ", the day in February must be from 1 to 29");
+                } else if ( ! ( cal.isLeapYear(year) ) ){
+                    if( d < 1 || d > 28 )
+                        throw new IllegalArgumentException("At" + year + ", the day in February must be from 1 to 28");
+                }
+                break;
+            }     
         }
 
         day = d;    // assign d to day.

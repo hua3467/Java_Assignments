@@ -11,7 +11,6 @@ public class Employee {
     private Date hireDate;
     
     static int count;
-    
     static int nextID = 1000;
     
     /**
@@ -55,7 +54,10 @@ public class Employee {
     public int getEmployeeCount(){
         return count;
     }
-    
+    /**
+     * 
+     * @param fn 
+     */
     public void setFirstName( String fn ){
         firstName = fn;
     }
@@ -68,7 +70,10 @@ public class Employee {
     public void setHireDate( Date hd ){
         hireDate = hd;
     }
-    
+    /**
+     * 
+     * @return 
+     */
     @Override
     public String toString(){
         return "\nEmployee Name: " + firstName + " " + lastName 
@@ -77,6 +82,11 @@ public class Employee {
                 + "\nDate of hiring: " + hireDate;
     }
     
+    /**
+     * 
+     * @param o
+     * @return 
+     */
     @Override
     public boolean equals( Object o ){
         
