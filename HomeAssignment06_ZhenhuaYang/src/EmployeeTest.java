@@ -16,6 +16,6 @@ public class EmployeeTest {
         System.out.println( aaron.toString() );
         System.out.println( mark.toString() );
         
-        System.out.println( "\nIs Aaron Mark? " + aaron.equals(mark) );
+        System.out.println( "\nAre Aaron and Mark the same person? " + aaron.equals(mark) );
     }
 }

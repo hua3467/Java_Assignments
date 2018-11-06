@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a434ba67-e3a6-4232-9bdd-07bd42758c23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quarterback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Home Assignment - 01 Fall 2018.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Home Assignment - 01 Fall 2018.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Home Assignment - 06 Fall 2018.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Home Assignment - 06 Fall 2018.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Home Assignment 05_ZhenhuaYang.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Home Assignment 05_ZhenhuaYang.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment06_ZhenhuaYang/src/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment06_ZhenhuaYang/src/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/Home Assignment - 03 Fall 2018.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/Home Assignment - 03 Fall 2018.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/build/classes/InvestmentCalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/build/classes/InvestmentCalc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/build/classes/PointClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/build/classes/PointClassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/src/InvestmentCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/src/InvestmentCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeAssignment_3/src/PointClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeAssignment_3/src/PointClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/src/ElapsedTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/src/ElapsedTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/src/TemperatureConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang/src/TemperatureConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang_A.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang_A.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang_B.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/Lab30-ZhenhuaYang_B.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/build/classes/.netbeans_automatic_build" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/build/classes/.netbeans_update_resources" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/build/classes/MilesConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/build/classes/MilesConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/build/classes/QuartsToGallons.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/build/classes/QuartsToGallons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/src/MilesConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/src/MilesConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/src/QuartsToGallons.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/src/QuartsToGallons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/src/Questions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab04/Lab04_Zhenhua(Aaron)Yang/src/Questions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/Lab Assignment - 5/Lab Assignment - 5/BankAccount API.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/Lab Assignment - 5/Lab Assignment - 5/BankAccount API.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/Lab Assignment - 5/Lab Assignment - 5/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/Lab Assignment - 5/Lab Assignment - 5/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/build/classes/.netbeans_automatic_build" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/build/classes/.netbeans_update_resources" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/build/classes/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/build/classes/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/build/classes/BankAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/build/classes/BankAccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/src/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/src/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/src/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/src/BankAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab05/src/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab05/src/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/build/classes/MonthlyMortgagePayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/build/classes/MonthlyMortgagePayment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/build/classes/Payroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/build/classes/Payroll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/build/classes/ThreeDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/build/classes/ThreeDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/src/MonthlyMortgagePayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/src/MonthlyMortgagePayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/src/Payroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/src/Payroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/src/ThreeDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang/src/ThreeDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang_Submit.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/Lab06_ZhenhuaYang_Submit.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab06/lab06-Assignment-Fall-2018(1).docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab06/lab06-Assignment-Fall-2018(1).docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/src/Tempreture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/src/Tempreture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/Lab07_ZhenhuaYang/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab07/lab07-Assignment-Fall-2018.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab07/lab07-Assignment-Fall-2018.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/.netbeans_automatic_build" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/.netbeans_update_resources" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/AverageTestScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/AverageTestScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Backwards.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Backwards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/CellService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/CellService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/CountTestScores.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/CountTestScores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/EchoFileData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/EchoFileData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/EchoUserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/EchoUserInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Factors.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Factors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/FindMaximumGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/FindMaximumGrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/NestedForLoops.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/NestedForLoops.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/PrintEven.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/PrintEven.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/ReadInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/ReadInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Sum5Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Sum5Numbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/TypeSafeReadInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/TypeSafeReadInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Unicode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/Unicode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/ValidateInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/build/classes/ValidateInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/grades.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/grades.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/AverageTestScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/AverageTestScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/Backwards.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/Backwards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/CellService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/CellService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/CountTestScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/CountTestScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/EchoFileData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/EchoFileData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/EchoUserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/EchoUserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/Factors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/FindMaximumGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/FindMaximumGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/NestedForLoops.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/NestedForLoops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/PrintEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/PrintEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/ReadInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/ReadInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/Sum5Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/Sum5Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/TypeSafeReadInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/TypeSafeReadInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/Unicode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/Unicode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Chapter06/src/ValidateInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Chapter06/src/ValidateInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/grades.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/grades.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/src/Grades.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/src/Grades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/src/Guessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/src/Guessing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/src/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab08_ZhenhuaYang/src/RockPaperScissors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Lab108_ZhenhuaYang.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Lab108_ZhenhuaYang.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/Review Questions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/Review Questions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab08/lab08-Assignment-Fall 2018.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab08/lab08-Assignment-Fall 2018.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/src/XorSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang/src/XorSimulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang_Submit.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/Lab09_ZhenhuaYang_Submit.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab09/lab09-Assignment-Fall-2018.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/lab09-Assignment-Fall-2018.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/src/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/src/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/src/StockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/Lab10_ZhenhuaYang/src/StockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/src/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/src/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/src/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/src/DateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/src/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/src/Loan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/src/LoanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/Lab11_ZhenhuaYang/src/LoanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/lab11-Assignment-Fall-2018.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/lab11-Assignment-Fall-2018.docx" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-464485549">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1141" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1141" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Quarterback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Quarterback.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1927" />
+    <option name="y" value="53" />
+    <option name="width" value="1559" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab12_IDEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab12" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541525099143" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Quarterback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quarterback" />
+      <module name="Lab12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Quarterback" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a434ba67-e3a6-4232-9bdd-07bd42758c23" name="Default Changelist" comment="" />
+      <created>1541521814386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541521814386</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1927" y="53" width="1559" height="1055" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24949966" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Quarterback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
