@@ -55,11 +55,11 @@ public class Student {
              courses += courseList[i].getCourseName() + "\n";
         }
         
-        return "\nID: " + studentID 
-                + "\nName: " + name
-                + "\nGPA: " + gpa
-                + "\nGener: " + gender
-                + "\nCourse List:\n" + courses;
+        return "========Student Information======\n" + "\n-ID: " + studentID 
+                + "\n-Name: " + name
+                + "\n-GPA: " + gpa
+                + "\n-Gener: " + gender
+                + "\n-Course List:\n" + courses;
         
     }
     

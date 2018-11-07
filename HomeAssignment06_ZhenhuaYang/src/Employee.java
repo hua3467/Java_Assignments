@@ -37,10 +37,9 @@ public class Employee {
     public String getFirstName(){
         return firstName;
     }
-    /**
-     * 
-     * @return last name
-     */
+    
+    
+    // Accessor methods
     public String getLastName(){
         return lastName;
     }
@@ -54,10 +53,8 @@ public class Employee {
     public int getEmployeeCount(){
         return count;
     }
-    /**
-     * 
-     * @param fn 
-     */
+    
+    // Mutator methods
     public void setFirstName( String fn ){
         firstName = fn;
     }
@@ -72,7 +69,7 @@ public class Employee {
     }
     /**
      * 
-     * @return 
+     * @return the data of an Employee object as string
      */
     @Override
     public String toString(){
@@ -83,7 +80,7 @@ public class Employee {
     }
     
     /**
-     * 
+     * compare two Employee objects to see if they are equal to each other. 
      * @param o
      * @return 
      */

@@ -26,6 +26,11 @@ public class StudentsCient {
     
     System.out.println( "Are Aaron and Zhenhua the same person (ignore ID)? " + aaronYang.equals(zhenhuaYang));
     
+    System.out.println( "\n=======Course Information======" );
+    for( int i = 0; i < courses.length; i++ ){
+        System.out.println( courses[i].toString() );
+    }
+    
     }
     
 }
