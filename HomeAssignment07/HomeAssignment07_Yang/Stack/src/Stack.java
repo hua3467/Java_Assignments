@@ -27,19 +27,17 @@ public class Stack {
     public void push( int n ){
         if( isFull() )
             addCapacity();
-        
-        list[ count + 1 ] = n;
         count++;
-        
+        list[count-1] = n;
+
     } 
     
-    public int pop() throws Exception{
+    public int pop(){
         
         if( isEmpty() ){
-            throw new Exception("the stack is empty, nothing could be poped. ");
+            return -1;
         } else {
-        int remove = list[list.length-1];
-        list[list.length-1] = 0;
+        int remove = list[count - 1];
         count--;
         return remove;
         }
@@ -47,7 +45,23 @@ public class Stack {
     }
     
     public int top (){
-        return list[ list.length - 1 ];
+        return list[ count - 1 ];
+    }
+    
+    public int maxValue (){
+        int max = 0;
+        for( int i = 0; i < count; i++ ){
+            if( max < list[i])
+                max = list[i];
+        }
+        return max;
+    }
+    
+    public int[] getList(){
+        int[] newList = new int[count];
+        for( int i = 0; i < count; i++ )
+            newList[i] = list[i];
+        return newList;
     }
 
     private boolean isFull() {
@@ -59,11 +73,39 @@ public class Stack {
         for( int i = 0; i < list.length; i++)
             temp[i] = list[i];
         list = temp;
-        temp = null;
     }
 
     private boolean isEmpty() {
         return size() == 0;
+    }
+    
+    @Override
+    public String toString(){
+        String str = "";
+        
+        for( int i = 0; i < count; i++ ){
+            str += list[i] + "    ";
+        }
+        
+        return str;
+    }
+    
+    @Override
+    public boolean equals( Object s ){
+        
+        if( !( s instanceof Stack ) )
+            return false;
+        else{
+            Stack objStack = (Stack) s;
+            String str = "";
+            for( int i = 0; i < objStack.size(); i++ ){
+                
+                if( objStack.getList()[i] != list[i] )
+                    return false;
+            }
+            return true;
+        }
+                
     }
     
 }
