@@ -5,7 +5,7 @@
 import java.text.DecimalFormat;
 
 public class SalesTax {
-    
+
     public static void main( String [] args ){
 
         DecimalFormat twoDecimals = new DecimalFormat("0.00");
@@ -48,7 +48,10 @@ public class SalesTax {
   
     }
 
-
+    /**
+     * the static method that create a 2D Array.
+     * @return a 2D Array with double elements.
+     */
     public static double[][] create2DArray(){
         double [][] taxRates = new double[50][10];
        
@@ -60,9 +63,9 @@ public class SalesTax {
         return taxRates;
     }
     /**
-     * 
-     * @param array
-     * @return 
+     * the method that return all the elements in the 2D array in a String.
+     * @param array the array that is going to be returned as a String.
+     * @return all the elements of the array in a string. 
      */
     public static String getString( double [][] array){
         // create a DecimalFormat object
@@ -79,6 +82,12 @@ public class SalesTax {
         return str;
     }
     
+    /**
+     * The method that return the tax rates in each year of selected state.
+     * @param array the 2-d array that will passed into the method
+     * @param stateIndex the index of the selected state.
+     * @return a string of the tax rates in each year.
+     */
     public static String taxRatesForSpecificState( double [][] array, int stateIndex ){
         String  str = "";
 
@@ -86,12 +95,18 @@ public class SalesTax {
         DecimalFormat twoDecimal = new DecimalFormat("0.00");
 
         for( int i = 0; i < array[stateIndex].length; i++ ){
-            str += twoDecimal.format(array[stateIndex][i] )+ "\t";
+            str += twoDecimal.format( array[stateIndex][i] )+ "\t";
         }
 
         return str;
     }
     
+    /**
+     * 
+     * @param array
+     * @param yearIndex
+     * @return 
+     */
     public static String taxRatesForSpecificYear( double [][] array, int yearIndex ){
         String  str = "";
 
@@ -108,6 +123,11 @@ public class SalesTax {
         return str;
     }
     
+    /**
+     * 
+     * @param array
+     * @return 
+     */
     public static int stateWithHighestTaxRate( double [][] array ) {
         
         double maxAvg = 0;
@@ -128,6 +148,11 @@ public class SalesTax {
         return maxIndex;
     }
     
+    /**
+     * 
+     * @param array
+     * @return 
+     */
     public static int[] statesWithLowSalexTaxRate( double [][] array ){
         int[] arr = new int [array.length];
         int count = 0;
@@ -150,6 +175,11 @@ public class SalesTax {
         return temp;
     }
     
+    /**
+     * 
+     * @param array
+     * @return 
+     */
     public static double[] statesHighestSalesTaxRate( double [][] array ){
         double[] arr = new double[array.length];
         double max = 0;
