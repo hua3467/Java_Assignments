@@ -7,6 +7,8 @@
         <Property name="text" type="java.lang.String" value="jToggleButton1"/>
       </Properties>
     </Component>
+    <Component class="com.github.lgooddatepicker.components.TimePicker" name="timePicker1">
+    </Component>
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>

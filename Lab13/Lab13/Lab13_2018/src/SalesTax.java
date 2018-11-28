@@ -15,24 +15,24 @@ public class SalesTax {
         double [][] usStates = create2DArray();
         
         // ii. Print the string returned by getString() static method 
-        System.out.println( "\nPrint the string: \n" + getString(usStates));
+        System.out.println( "\nii.Print the string: \n" + getString(usStates));
         
         // iii. Print the string returned by taxRatesForSpecificState() 
-        System.out.println( "\ntaxRatesForSpecificState: " + taxRatesForSpecificState( usStates, 6));
+        System.out.println( "\niii.taxRatesForSpecificState: " + taxRatesForSpecificState( usStates, 6));
         
         // iv. Print the string returned by taxRatesForSpecificYear() 
-        System.out.println( "\ntaxRatesForSpecificYear: \n" + taxRatesForSpecificYear( usStates, 7));
+        System.out.println( "\niv.taxRatesForSpecificYear: \n" + taxRatesForSpecificYear( usStates, 7));
         System.out.println();
         
         // v.Print the value returned by stateWithHighestTaxRate() 
-        System.out.println( "\nState with Highest Tax Rate: \n" + stateWithHighestTaxRate(usStates));
+        System.out.println( "\nv.State with Highest Tax Rate: \n" + stateWithHighestTaxRate(usStates));
         System.out.println();
         
         // vi.	Create an int array variable statesWithLowSalesTaxRate 
         // and assign it the value returned by statesWithLowSalexTaxRate()
         int [] statesWithLowSalesTaxRate = statesWithLowSalexTaxRate(usStates);
         // Print the array
-        System.out.println("\nStates with Low Sales Tax Rate: ");
+        System.out.println("\nvi.States with Low Sales Tax Rate: ");
         for( int i = 0; i < statesWithLowSalesTaxRate.length; i++ ){
             System.out.println(statesWithLowSalesTaxRate[i]);
         }
@@ -41,7 +41,7 @@ public class SalesTax {
         // and assign it the value returned by statesHighestSalesTaxRate ().
         double [] statesHighestSalesTaxRate  = statesHighestSalesTaxRate(usStates);
         // Print the array
-        System.out.println("\nHighst Sales Tax Rate of each state over the 10 years: ");
+        System.out.println("\nvii.Highest Sales Tax Rate of each state over the 10 years: ");
         for( int i = 0; i < statesHighestSalesTaxRate .length; i++ ){
             System.out.println(twoDecimals.format(statesHighestSalesTaxRate [i]));
         }
@@ -102,10 +102,10 @@ public class SalesTax {
     }
     
     /**
-     * 
-     * @param array
-     * @param yearIndex
-     * @return 
+     * The method that returns a string of tax rate of each state in a certain year
+     * @param array the 2-d array that will passed into the method
+     * @param yearIndex the index of the selected year.
+     * @return string of tax rate of each state in a certain year
      */
     public static String taxRatesForSpecificYear( double [][] array, int yearIndex ){
         String  str = "";
@@ -124,9 +124,9 @@ public class SalesTax {
     }
     
     /**
-     * 
-     * @param array
-     * @return 
+     * The method that return the index of the state that has the highest tax rate in the array. 
+     * @param array the 2-d array that includes the tax rates of states over 10 years. 
+     * @return the index of the state that has the highest tax rate.
      */
     public static int stateWithHighestTaxRate( double [][] array ) {
         
@@ -149,9 +149,9 @@ public class SalesTax {
     }
     
     /**
-     * 
-     * @param array
-     * @return 
+     * method that find the states with Low Sales Tax Rate
+     * @param array the 2-d array that includes the tax rates of states over 10 years.
+     * @return the array of index of states with Low Sales Tax Rate
      */
     public static int[] statesWithLowSalexTaxRate( double [][] array ){
         int[] arr = new int [array.length];
@@ -176,9 +176,9 @@ public class SalesTax {
     }
     
     /**
-     * 
-     * @param array
-     * @return 
+     * the method that finds the highest Sales Tax Rate of each state over the 10 years
+     * @param array the 2-d array that includes the tax rates of states over 10 years.
+     * @return the array of tax rate of each state over the 10 years.
      */
     public static double[] statesHighestSalesTaxRate( double [][] array ){
         double[] arr = new double[array.length];

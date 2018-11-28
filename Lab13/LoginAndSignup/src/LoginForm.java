@@ -31,6 +31,7 @@ public class LoginForm extends javax.swing.JFrame {
     private void initComponents() {
 
         jToggleButton1 = new javax.swing.JToggleButton();
+        timePicker1 = new com.github.lgooddatepicker.components.TimePicker();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabelClose = new javax.swing.JLabel();
@@ -272,5 +273,6 @@ public class LoginForm extends javax.swing.JFrame {
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JToggleButton jToggleButton1;
+    private com.github.lgooddatepicker.components.TimePicker timePicker1;
     // End of variables declaration//GEN-END:variables
 }
