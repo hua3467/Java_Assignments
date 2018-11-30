@@ -11,12 +11,22 @@
 public class SalariedEmployee extends Employee {
     private double weeklySalary;
     
-    private double getWeeklySalary(){
+    public SalariedEmployee(String newFirstName, String newLastName, String newSSN, 
+            double newWeeklySalary ){
+        
+        super( newFirstName,  newLastName, newSSN);
+        weeklySalary = newWeeklySalary;
+    }
+        
+    public double getWeeklySalary(){
         return weeklySalary;
     }
     
-    private void setWeeklySalary( double newWeeklySalary ){
-        weeklySalary = newWeeklySalary;
+    public void setWeeklySalary( double newWeeklySalary ){
+        if( newWeeklySalary >= 0 )
+            weeklySalary = newWeeklySalary;
+        else
+            throw new IllegalArgumentException("the weekly salary should not be negative");
     }
     
     /**

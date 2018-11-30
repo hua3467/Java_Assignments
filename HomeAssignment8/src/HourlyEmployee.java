@@ -13,11 +13,35 @@ public class HourlyEmployee extends Employee {
     private double wage;
     private int hours;
     
-    private double getWage(){
+    public HourlyEmployee(String newFirstName, String newLastName, 
+            String newSSN, double newWage, int newHours){
+        
+        super( newFirstName,  newLastName, newSSN);
+        wage = newWage;
+        hours = newHours;
+        
+    }
+    
+    public double getWage(){
         return wage;
     }
-    private int getHours(){
+    public int getHours(){
         return hours;
+    }
+    
+    public void setWage( double newWage ){
+        if(newWage>=0){
+            wage = newWage;
+        }else{
+            throw new IllegalArgumentException( "the new Wage should not be negative." );
+        }
+    }
+    public void setHours( int newHours ){
+        if( newHours >= 0 ){
+            hours = newHours;
+        }else{
+            throw new IllegalArgumentException("the number of hours should not be negative");
+        }
     }
     
     @Override

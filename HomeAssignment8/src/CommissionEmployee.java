@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author zhenhua.yang.1
@@ -12,15 +6,21 @@ public class CommissionEmployee extends Employee {
     private double grossSales;
     private double commissionRate;
     
-    private double getGrossSales(){
+    public CommissionEmployee(String newFirstName, String newLastName, 
+            String newSSN, double newGrossSales, double newCommissionRate){
+        super( newFirstName,  newLastName, newSSN);
+        grossSales = newGrossSales;
+        commissionRate = newCommissionRate;
+    }
+    
+    public double getGrossSales(){
         return grossSales;
     }
     
-    private double getCommissionRate(){
+    public double getCommissionRate(){
         return commissionRate;
     }
     
-     @Override
     public String toString(){
         return "Gross Sales: " + getGrossSales()
                 + "\nCommission Rate: " + getCommissionRate();
@@ -36,6 +36,10 @@ public class CommissionEmployee extends Employee {
                     this.getCommissionRate() == objC.getCommissionRate();
         }
             
+    }
+    
+    public double getEarnings(){
+        return commissionRate * grossSales;
     }
     
 }
