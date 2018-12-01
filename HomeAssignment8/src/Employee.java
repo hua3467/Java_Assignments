@@ -15,6 +15,12 @@ public abstract class Employee {
     private String lastName;
     private String ssn;
     
+    public Employee(){
+        firstName = null;
+        lastName = null;
+        ssn = null;
+    }
+    
     public Employee( String fn, String ln, String s ){
         firstName = fn;
         lastName = ln;

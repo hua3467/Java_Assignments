@@ -11,6 +11,11 @@
 public class SalariedEmployee extends Employee {
     private double weeklySalary;
     
+    public SalariedEmployee(){
+        super();
+        weeklySalary = 0;
+    }
+    
     public SalariedEmployee(String newFirstName, String newLastName, String newSSN, 
             double newWeeklySalary ){
         

@@ -5,10 +5,10 @@
 public class BasePlusCommissionEmployee extends CommissionEmployee {
     private double baseSalary;
     
-    public BasePlusCommissionEmployee(String newFirstName, String newLastName, 
-            String newSSN, double newGrossSales, double newCommissionRate, double newBaseSalary){
+    public BasePlusCommissionEmployee(String newFirstName, String newLastName, String newSSN, 
+            double newGrossSales, double newCommissionRate, double newBaseSalary){
         
-        super( newFirstName, newLastName, newSSN newGrossSales, newCommissionRate );
+        super( newFirstName, newLastName, newSSN, newGrossSales, newCommissionRate );
         
         baseSalary = newBaseSalary;
     }
