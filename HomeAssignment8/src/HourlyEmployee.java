@@ -1,3 +1,6 @@
+
+import java.text.DecimalFormat;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -12,6 +15,8 @@ public class HourlyEmployee extends Employee {
     
     private double wage;
     private int hours;
+    
+    DecimalFormat currency = new DecimalFormat("$0.00");
     
     public HourlyEmployee(String newFirstName, String newLastName, 
             String newSSN, double newWage, int newHours){
@@ -54,8 +59,8 @@ public class HourlyEmployee extends Employee {
     
     @Override
     public String toString(){
-        return "working hours: " + hours
-                + "wage: " + wage;      
+        return super.toString() + "\tEmployee Type: Hourly" + ", \tWorking Hours: " + getHours()
+                + "\twage: " + currency.format(getWage()) + "\tEarnings: " + currency.format(this.getEarnings());      
     }
     
     @Override

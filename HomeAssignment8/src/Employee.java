@@ -1,32 +1,30 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
- *
+ * Employee is an abstract class for all type of employee classes. 
+ * By implementing this class, an application can create following data:
+ * <ul>
+ * <li>First Name of the employee</li>
+ * <li>Last Name of the employee</li>
+ * <li>SSN of the employee</li>
+ * </ul>
  * @author zhenhua.yang.1
+ * @version 1.0
  */
-
 
 public abstract class Employee {
+    
+    // instance variables
     private String firstName;
     private String lastName;
     private String ssn;
     
-    public Employee(){
-        firstName = null;
-        lastName = null;
-        ssn = null;
-    }
-    
+    //constructor
     public Employee( String fn, String ln, String s ){
         firstName = fn;
         lastName = ln;
         ssn = s;
     }
     
+    //Accesser methods:
     public String getFirstName(){
         return firstName;
     }
@@ -34,18 +32,19 @@ public abstract class Employee {
         return lastName;
     }
     
+    // mutator methods
     public void setFirstName( String newFirstName ){
         firstName = newFirstName;
     }
-    
     public void setLastName( String newLastName ){
         firstName = newLastName;
     }
     
+    // abstract gerEarnings() method
+    public abstract double getEarnings();
+    
     public String toString(){
-        return "First Name: " + firstName + 
-                "\nLast Name: " + lastName +
-                "\nSSN: " + ssn;
+        return "Full Name: " + firstName +" " + lastName + "\tSSN: " + ssn;
     }
     
     /**
@@ -65,6 +64,6 @@ public abstract class Employee {
         }
     }
     
-    public abstract double getEarnings();
+    
     
 }

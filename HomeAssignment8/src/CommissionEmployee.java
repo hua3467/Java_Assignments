@@ -1,3 +1,6 @@
+
+import java.text.DecimalFormat;
+
 /**
  *
  * @author zhenhua.yang.1
@@ -5,6 +8,8 @@
 public class CommissionEmployee extends Employee {
     private double grossSales;
     private double commissionRate;
+    
+    DecimalFormat currency = new DecimalFormat("$0.00");
     
     public CommissionEmployee(String newFirstName, String newLastName, 
             String newSSN, double newGrossSales, double newCommissionRate){
@@ -22,8 +27,8 @@ public class CommissionEmployee extends Employee {
     }
     
     public String toString(){
-        return "Gross Sales: " + getGrossSales()
-                + "\nCommission Rate: " + getCommissionRate();
+        return super.toString() + "\tEmployee Type: Commission" + ", \tGross Sales: " + currency.format(getGrossSales())
+                + "\tCommission Rate: " + currency.format(getCommissionRate()) + "\tEarnings: " + currency.format(this.getEarnings());
     }
     
     @Override

@@ -2,8 +2,12 @@
  *
  * @author zhenhua.yang.1
  */
+import java.text.DecimalFormat;
+
 public class BasePlusCommissionEmployee extends CommissionEmployee {
     private double baseSalary;
+    
+    DecimalFormat currency = new DecimalFormat("$0.00");
     
     public BasePlusCommissionEmployee(String newFirstName, String newLastName, String newSSN, 
             double newGrossSales, double newCommissionRate, double newBaseSalary){
@@ -24,7 +28,8 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
     }
     
     public String toString(){
-        return "Base Salary: " + getBaseSalary();
+        return super.toString() + "\tEmployee Type: Base+Commission" + ", \tBase Salary: " + 
+                currency.format(getBaseSalary())  + "\tEarnings: " + currency.format(this.getEarnings());
     }
     
     public double getEarnings(){
