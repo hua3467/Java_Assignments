@@ -31,6 +31,9 @@ public abstract class Employee {
     public String getLastName(){
         return lastName;
     }
+    public String getSSN(){
+        return ssn;
+    }
     
     // mutator methods
     public void setFirstName( String newFirstName ){
@@ -57,7 +60,9 @@ public abstract class Employee {
         if( ! (o instanceof Employee) )
             return false;
         else{
+            
             Employee objE = (Employee)o;
+            
             return objE.firstName.equals(firstName) 
                     && objE.lastName.equals(lastName) 
                     && objE.ssn.equals(ssn);

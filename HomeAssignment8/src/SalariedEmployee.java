@@ -1,32 +1,36 @@
 
 import java.text.DecimalFormat;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author zhenhua.yang.1
  */
 public class SalariedEmployee extends Employee {
+    
+    // instance variable
     private double weeklySalary;
     
     DecimalFormat currency = new DecimalFormat("$0.00");
     
+    /**
+     * constructor that allow the application create an SalariedEmployee object. 
+     * @param newFirstName
+     * @param newLastName
+     * @param newSSN
+     * @param newWeeklySalary 
+     */
     public SalariedEmployee(String newFirstName, String newLastName, String newSSN, 
             double newWeeklySalary ){
         
         super( newFirstName,  newLastName, newSSN);
         weeklySalary = newWeeklySalary;
     }
-        
+    
+    // accessor method
     public double getWeeklySalary(){
         return weeklySalary;
     }
     
+    // mutator method
     public void setWeeklySalary( double newWeeklySalary ){
         if( newWeeklySalary >= 0 )
             weeklySalary = newWeeklySalary;
@@ -50,7 +54,8 @@ public class SalariedEmployee extends Employee {
             return false;
         else{
             SalariedEmployee objS = (SalariedEmployee)o;
-            return this.getWeeklySalary() == objS.getWeeklySalary();
+            return super.equals(objS)
+                    && this.getWeeklySalary() == objS.getWeeklySalary();
         }
             
     }

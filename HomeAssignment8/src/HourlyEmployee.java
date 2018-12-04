@@ -1,23 +1,26 @@
 
 import java.text.DecimalFormat;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author zhenhua.yang.1
  */
 public class HourlyEmployee extends Employee {
     
+    // create instance variables
     private double wage;
     private int hours;
     
+    // create DecimalFormat object currency
     DecimalFormat currency = new DecimalFormat("$0.00");
     
+    /**
+     * constructor that create an HourlyEMployee object 
+     * @param newFirstName
+     * @param newLastName
+     * @param newSSN
+     * @param newWage
+     * @param newHours 
+     */
     public HourlyEmployee(String newFirstName, String newLastName, 
             String newSSN, double newWage, int newHours){
         
@@ -27,6 +30,7 @@ public class HourlyEmployee extends Employee {
         
     }
     
+    // accessor methods
     public double getWage(){
         return wage;
     }
@@ -34,6 +38,7 @@ public class HourlyEmployee extends Employee {
         return hours;
     }
     
+    // mutator methods
     public void setWage( double newWage ){
         if(newWage>=0){
             wage = newWage;
@@ -49,6 +54,10 @@ public class HourlyEmployee extends Employee {
         }
     }
     
+    /**
+     * getEearning() method that returns the employee's weekly income.
+     * @return a double value that represents total earning during the week
+     */
     @Override
     public double getEarnings(){
         if( getHours() > 40 )
@@ -69,9 +78,10 @@ public class HourlyEmployee extends Employee {
             return false;
         else{
             HourlyEmployee objH = (HourlyEmployee) o;
-            return this.getWage() == objH.getWage() &&
-                    this.getHours() == objH.getHours();
+            
+            return super.equals(objH) 
+                    && wage == objH.wage 
+                    && hours == objH.hours;
         }
     }
-    
 }

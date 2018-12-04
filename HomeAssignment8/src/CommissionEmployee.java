@@ -6,24 +6,43 @@ import java.text.DecimalFormat;
  * @author zhenhua.yang.1
  */
 public class CommissionEmployee extends Employee {
+    
+    // create instance variables
     private double grossSales;
     private double commissionRate;
     
+    // create DecimalFormat object currency
     DecimalFormat currency = new DecimalFormat("$0.00");
-    
+    /**
+     * constructor
+     * @param newFirstName
+     * @param newLastName
+     * @param newSSN
+     * @param newGrossSales
+     * @param newCommissionRate 
+     */
     public CommissionEmployee(String newFirstName, String newLastName, 
             String newSSN, double newGrossSales, double newCommissionRate){
+        
         super( newFirstName,  newLastName, newSSN);
         grossSales = newGrossSales;
         commissionRate = newCommissionRate;
+        
     }
-    
+   // accessor methods
     public double getGrossSales(){
         return grossSales;
     }
-    
     public double getCommissionRate(){
         return commissionRate;
+    }
+    
+    // mutator methods
+    public void setGrossSales( double newGrossSales ){
+        grossSales = newGrossSales;
+    }
+    public void setCommissionRate( double newCommissionRate ){
+        commissionRate = newCommissionRate;
     }
     
     public String toString(){
@@ -37,8 +56,9 @@ public class CommissionEmployee extends Employee {
             return false;
         else{
             CommissionEmployee objC = (CommissionEmployee)o;
-            return this.getGrossSales() == objC.getGrossSales() && 
-                    this.getCommissionRate() == objC.getCommissionRate();
+            return super.equals(objC) 
+                    && this.getGrossSales() == objC.getGrossSales() 
+                    && this.getCommissionRate() == objC.getCommissionRate();
         }
             
     }
