@@ -1,0 +1,10 @@
+Number of Students: 19
+Average Grades: 85.21052631578948
+Highest Grade: 99
+Lowest Grade: 56
+The number of students who passed: 18
+The number of students who got an A: 8
+The number of students who got an B: 4
+The number of students who got an C: 6
+The number of students who got an D: 0
+The number of students who got an F: 1
