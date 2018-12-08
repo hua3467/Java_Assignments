@@ -17,7 +17,7 @@ public class GradesStatistics
          String fileName = scan.next();
          System.out.println();
          
-         
+         // Create File object
          File input_File = new File(fileName);
          
          try{
@@ -65,9 +65,11 @@ public class GradesStatistics
          double average = (double) sum/students;
          int passed = A + B + C + D;
          
+         // Create FileOutputStream object.
          FileOutputStream fos = new FileOutputStream("gradeStatisticsOutput.txt", false);
          PrintWriter pw = new PrintWriter(fos);
          
+         // Write data to the file
          pw.println( "Number of Students: " + students );
          pw.println( "Average Grades: " + average );
          pw.println( "Highest Grade: " + max );
@@ -78,7 +80,7 @@ public class GradesStatistics
          pw.println("The number of students who got an C: " + C);
          pw.println("The number of students who got an D: " + D);
          pw.println("The number of students who got an F: " + F);
-         
+         // release the resources associated with gradeStatisticsOutput.txt
          pw.close();
          
          //Output computations
